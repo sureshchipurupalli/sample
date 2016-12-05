@@ -44,13 +44,18 @@ GEM
       airbrake-ruby (~> 1.6)
     airbrake-ruby (1.6.0)
     arel (7.1.4)
+    autoprefixer-rails (6.5.3)
+      execjs
     bcrypt (3.1.11)
-    bootstrap-sass (3.1.0.2)
-      sass (~> 3.2)
-    bootstrap-sass-rails (3.1.0.0)
-      bootstrap-sass (~> 3.1.0.0)
-      railties (>= 3.2.0)
-      sass-rails (>= 3.2.0)
+    bootstrap (4.0.0.alpha5)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    bootstrap-sass-rails (3.0.3.0)
+      railties (>= 3.1.0)
+      sass-rails (>= 3.1.0)
     buftok (0.2.0)
     builder (3.2.2)
     byebug (9.0.6)
@@ -264,6 +269,9 @@ PLATFORMS
 
 DEPENDENCIES
   airbrake
+  autoprefixer-rails
+  bootstrap (~> 4.0.0.alpha5)
+  bootstrap-sass (~> 3.3, >= 3.3.6)
   bootstrap-sass-rails
   byebug
   carrierwave
@@ -288,6 +296,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+  sprockets (~> 3.7)
   turbolinks (~> 5)
   twitter
   tzinfo-data
